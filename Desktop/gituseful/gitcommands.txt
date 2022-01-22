@@ -1,0 +1,39 @@
+git config --global user.name fareed
+git config --global user.email shaikfareed366@gmail.com
+git init ->initialize
+ls -lart ->to list all files in pwd
+git add filename -> to add file where it moves to staged
+git commit -> to save files in git
+git status -> to get the status
+git add -A -> to add all files in current folder
+git commit -m "Added more htmls" -> commit to save directly
+git checkout file -> to recover files in local system to recover from git
+git checkout -f -> to recover all files modified in local to match with git
+git log -> to get all logs
+git log -p -100 -> to get 100 logs
+git diff -> to compare with files in staging area
+git diff --staged -> to compare with file last commited match
+git commit -a -m "skipped staging area and fixed: -> directly move to git without going to staging
+git rm --cached filename-> to remove file in staged
+git rm filename -> to remove file from git
+git status -s -> to get status of stage and untracked and commit
+for ignoring file in a folder create a file with extension .gitignore and in that file add names of the files or images that u want to ignore(*.cpp ->ignore files with extension .cpp in all inner folder as well)
+IN GIT MASTER IS THE MAIN BRANCH 
+git branch feature1 -> to create one more branch with name feature1
+git branch -> to list all branches
+git checkout feature1 -> switch to branch feature1
+git merge feature1 -> to merge edited lines with master branch
+git checkout -b branchnaem -> create and switch to branch directly
+git remote add origin urlnameofgithubtoconnect ->
+git remote -> will get remotename details (eg:origin)
+git remote -v ->to get url of remote 
+git push remotename branchname -> to push data to github
+git remote set-url remotename newurl -> to change url of remotename
+git push -u remotename branchname
+git clone urlname
+
+untracked ->not added to git
+staged -> when add file to git it move to staged before commit
+unmodified -> when will give commit it goes to unmodified
+modified -> edit the file and then move to staged
+
